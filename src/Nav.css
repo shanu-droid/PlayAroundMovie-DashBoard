@@ -1,0 +1,37 @@
+@media all and (min-width: 480px) {
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 70px;
+    z-index: 1;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav_avatar {
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+  }
+  .signin_button {
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+  }
+  .signin_button:hover {
+    border: 1px solid white;
+  }
+  .signout_button {
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+  }
+  .signout_button:hover {
+    border: 1px solid white;
+  }
+}

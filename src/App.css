@@ -1,0 +1,21 @@
+@media all and (min-width: 480px) {
+  .btn,
+  .jumbotron,
+  .nav :hover {
+    border-radius: 0px;
+  }
+
+  body {
+    background: #222;
+  }
+  * {
+    margin: 0;
+  }
+  .App {
+    background-color: #111;
+  }
+
+  .main {
+    margin-top: 70px;
+  }
+}

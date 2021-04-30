@@ -1,0 +1,30 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+    background-color: "#222";
+    height: 100%;
+    width: 100%;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 350px;
+    height: 400px;
+    background-color: "#b6b6b4";
+    border: 1px solid blue;
+    border-radius: 10px;
+    color: blue;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+}
+.submit_button {
+  background-color: blue;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}
+.submit_button:hover {
+  border: 1px solid white;
+}
